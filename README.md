@@ -35,9 +35,11 @@ Pick Easy, Normal, or Hard on the start screen. The game remembers your fastest 
 
 ## Running it
 
-The whole game is one file, `slice-rush.html`, with no dependencies. Open it in any modern browser.
+Play it online at https://nickelm.github.io/slice-rush/.
 
-To put it on a website, upload the file (rename it `index.html` if you want it to load at a folder's address). Any static host works, for example a personal website, GitHub Pages, or Netlify.
+The whole game is one file, `index.html`, with no dependencies. Open it in any modern browser.
+
+To put it on a website, upload the file. Any static host works, for example a personal website, GitHub Pages, or Netlify.
 
 On a phone or tablet, open the game and choose **Add to Home Screen** to launch it full screen like an app.
 

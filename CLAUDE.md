@@ -10,7 +10,7 @@ The players are children. Keep the game silly, readable on a phone, and forgivin
 
 ## Hard constraints
 
-- **One file.** Everything lives in `slice-rush.html` (HTML, CSS, JS, graphics, audio). No build step, no frameworks, no external requests, no image or sound assets. All art is drawn on a canvas; all sound is synthesized with the Web Audio API.
+- **One file.** Everything (HTML, CSS, JS, graphics, audio) lives in `index.html`, which is named so GitHub Pages serves it at the site root. No build step, no frameworks, no external requests, no image or sound assets. All art is drawn on a canvas; all sound is synthesized with the Web Audio API.
 - **Touch first.** Every feature must work with taps and drags on a phone. Keyboard support (arrows/WASD) is a bonus.
 - **Portrait layout.** The world is a fixed 540 × 900 canvas scaled to fit the screen.
 - **Storage is optional.** `localStorage` holds the selected difficulty and fastest win per difficulty; always wrap it in `try/catch`.
